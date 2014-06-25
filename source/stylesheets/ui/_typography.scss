@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+ * Links
+ */
+a, a:visited {
+  color: $link-color;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/**
+ * Page lead
+ */
+.page-lead {
+  @extend %flush;
+  @extend .landmark;
+
+  text-align: center;
+}
+
+.page-lead__headline {
+  color: darken($base-color, 10%);
+  margin-bottom: 0.25em;
+}
+
+/**
+ * Marks
+ */
+mark {
+  background: none;
+  color: $brand-pink;
+}
+
+/**
+ * Headings
+ */
+h3 {
+  font-family: $base-font-family;
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+}

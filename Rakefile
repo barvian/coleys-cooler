@@ -1,0 +1,7 @@
+require 'rubygems' unless defined?(Gem)
+
+namespace :assets do
+  task :precompile do
+    sh "middleman build"
+  end
+end

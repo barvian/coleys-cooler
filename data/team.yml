@@ -1,0 +1,4 @@
+- name: Batman Bar
+  image: products/batman_bar.png
+  price: 2.50
+  description: This Batman-shaped bar packs a punch with Caped Crusader fans, featuring a tasty cherry flavor complete with bubble gum eyes.

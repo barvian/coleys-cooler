@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    $PRODUCTS
+\*------------------------------------*/
+.product {
+  @extend %flush;
+  @extend %sass-margin-bottom;
+}
+
+.product__img {
+  width: 66px;
+}
+
+.product__title {
+  color: $brand-purple;
+  margin-bottom: 0.25em;
+}
+
+.product__desc {
+  @extend .milli;
+
+  line-height: 1.15;
+}

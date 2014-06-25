@@ -1,0 +1,27 @@
+<% options = {} unless defined? options %>
+<div class="slider <%= 'slider--paginated' if options[:paginated] %> <%= 'slider--collapsed' if options[:collapsed] %>"
+    <%= "data-ui-component=\"#{name}\"" if name %> <%= data_options("slider", options) %>>
+  <div class="slider__wrap">
+    <% slides.each do |slide| %>
+      <div class="slider__slide">
+        <%= slide %>
+      </div>
+    <% end %>
+  </div>
+
+  <% if options[:collapsed] %>
+    <div class="slider__expand">
+      expand them shits
+    </div>
+  <% end %>
+
+  <% if options[:paginated] %>
+    <ul class="nav pagination slider__pagination"><!--
+    <% slides.each_with_index do |slide, index| %>
+      --><li class="slider__pagination__item">
+        <a href="#" data-target="<%= index %>">slide <%= index + 1 %></a>
+      </li><!--
+    <% end %>
+    --></ul>
+  <% end %>
+</div>

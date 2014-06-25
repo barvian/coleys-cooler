@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $EXPANDABLES
+\*------------------------------------*/
+.expandable {
+  position: relative;
+}
+
+.expandable__more {
+  .js & {
+    display: none;
+  }
+}
+
+.expandable__footer {
+  text-align: center;
+
+  .no-js & {
+    display: none;
+  }
+
+  .cssgradients & {
+    bottom: 0;
+    height: $base-spacing-unit * 5;
+    padding-bottom: $base-spacing-unit;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+    @include background-image(linear-gradient(bottom, rgba(255, 255, 255, 1.0) 0%, rgba(255, 255, 255, 0.975) 40%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.0) 100%));
+  }
+}

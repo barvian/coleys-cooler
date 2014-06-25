@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    $FIGURES
+\*------------------------------------*/
+.figure {
+
+}
+
+.figure__img {
+
+}
+
+.figure__caption {
+
+}
+
+/**
+ * Headshots
+ */
+$headshot-padding: 0.3125em;
+.headshot {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  padding: $headshot-padding;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  @include border-radius(100%);
+
+  &::after {
+    bottom: $headshot-padding;
+    content: '';
+    left: $headshot-padding;
+    position: absolute;
+    right: $headshot-padding;
+    top: $headshot-padding;
+
+    @include box-shadow(inset 0 0 1px 1px rgba(0, 0, 0, 0.5), inset 0 2px 8px rgba(0, 0, 0, 0.45));
+  }
+
+  &:hover {
+    .headshot__caption {
+      opacity: 1.0;
+    }
+  }
+}
+
+.headshot__img {
+  height: 100%;
+  width: 100%;
+
+  @include border-radius(100%);
+}
+
+.headshot__caption {
+  background-color: rgba(0, 0, 0, 0.35);
+  bottom: $headshot-padding;
+  left: $headshot-padding;
+  opacity: 0.0;
+  position: absolute;
+  right: $headshot-padding;
+  top: $headshot-padding;
+  text-align: center;
+
+  @include border-radius(100%);
+  @include transition(opacity ease-in-out 0.25s);
+
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}

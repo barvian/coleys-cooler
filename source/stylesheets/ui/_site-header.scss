@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    $SITE-HEADER
+\*------------------------------------*/
+
+.site-header {
+  @extend .section;
+
+  background: image-url("header.png") repeat-x center top;
+  margin-bottom: 2 * $base-spacing-unit;
+
+  .backgroundsize & {
+    @include background-size(auto 64px);
+  }
+
+  @include media-query(desk) {
+    &, .backgroundsize & {
+      @include background-size(auto auto);
+    }
+  }
+
+  .site-header__text {
+    color: rgb(229, 227, 232);
+
+    @include text-shadow(0 1px 1px rgba(0, 0, 0, 0.45));
+    @include media-query(portable) {
+      display: none;
+    }
+  }
+}
+
+/*a*/.site-logo {
+  background: image-url("logo.png") no-repeat center top;
+  display: block;
+  height: image-height("logo.png");
+  margin: 0 auto;
+  width: image-width("logo.png");
+
+  @include hide-text;
+
+  .backgroundsize & {
+    height: 100px;
+    width: 200px;
+
+    @include background-size(100% auto);
+    @include media-query(desk) {
+      height: 186px;
+      width: 372px;
+    }
+  }
+}
+
+.site-header__left, .site-header__right {
+  position: absolute;
+  top: 7px;
+
+  .button, .site_header__text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  @include media-query(desk) {
+    top: 32px;
+  }
+}
+
+.site-header__left {
+  left: $base-spacing-unit;
+
+  .site-header__text {
+    margin-left: $base-font-size * 0.75;
+  }
+}
+
+.site-header__right {
+  right: $base-spacing-unit;
+
+  .site-header__text {
+    margin-right: $base-font-size * 0.75;
+  }
+}

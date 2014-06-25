@@ -1,0 +1,199 @@
+- name: Batman Bar
+  image: products/batman_bar.png
+  price: 2.50
+  description: This Batman-shaped bar packs a punch with Caped Crusader fans, featuring a tasty cherry flavor complete with bubble gum eyes.
+
+- name: Ninja Turtle Bar
+  image: products/ninja_turtle_bar.png
+  price: 2.00
+  description: Little turtle fans will love our smooth cherry ice face bar complete with bubble gum eyes.
+
+- name: Scooby Doo Bar
+  image: products/scooby_doo_bar.png
+  price: 2.50
+  description: This creamy Scooby-shaped bar is made up of mystery flavors fit to be solved by all you sweet sleuths. After a couple bubble gum eyes you should have the case cracked.
+
+- name: Sonic Bar
+  image: products/sonic_bar.png
+  price: 2.50
+  description: Our creamy Sonic bar features blue raspberry and cherry flavors, with bright green bubblegum eyes.
+
+- name: Tweety Bar
+  image: products/tweety_bar.png
+  price: 2.50
+  description: This creamy Tweety-faced bar features orange and cherry flavors with bubble gum eyes for a treat that's sweet.
+
+- name: Bubblegum Snow Cone
+  image: products/bubblegum_snow_cone.png
+  price: 3.00
+  description: Our sweet and cool shaved ice is packed with cherry, banana, and blue raspberry flavors, complete with a bubble gum gumball in the tip.
+
+- name: Jolly Rancher Snow Cone
+  image: products/jolly_rancher_snow_cone.png
+  price: 3.00
+  description: Rainbow stripes of apple, lemon and cherry flavor this sweet, shaved ice treat.
+
+- name: Vanilla Big Dipper
+  image: products/vanilla_big_dipper.png
+  price: 3.00
+  description: Our Vanilla Big Dipper features a large sugar cone filled with vanilla ice cream, dipped in chocolate flavored coating and topped off with crunchy peanuts and crispy cone pieces.
+
+- name: Chocolate Lover's Big Dipper
+  image: products/chocolate_lovers_big_dipper.png
+  price: 3.00
+  description: Our Chocolate Big Dipper features a large sugar cone filled with chocolate ice cream, dipped in chocolate coating and topped with chocolate cookie crunch.
+
+- name: Cookies 'n Cream Big Dipper
+  image: products/cookies_n_cream_big_dipper.png
+  price: 3.00
+  description: Our Cookies 'n Cream Big Dipper features a large sugar cone filled with cookies 'n cream ice cream dipped in premium white chocolate and topped with crunchy cookie pieces.
+
+- name: Birthday Party Ice Cream Sandwich
+  image: products/birthday_party_ice_cream_sandwich.png
+  price: 2.00
+  description: Creamy white birthday cake flavored ice cream with colorful confetti sprinkles and swirls of blue frosting between two vanilla wafers.
+
+- name: Vanilla Sandwich
+  image: products/vanilla_sandwich.png
+  price: 2.00
+  description: Here's a favorite that never gets old. Rich vanilla ice cream comes sandwiched between two chocolate wafers for a frozen treat that kids of all ages love.
+
+- name: Bubblegum Bar
+  image: products/bubblegum_bar.png
+  price: 1.00
+  description: Our famously sweet, creamy bubble gum bar swirls pink and blue bubble gum together for a treat that's hard to beat.
+
+- name: Cotton Candy Bar
+  image: products/cotton_candy_bar.png
+  price: 1.00
+  description: If you like cotton candy, you'll love this bar!
+
+- name: Champ! King Size Bunny Tracks Cone
+  image: products/champ_king_size_bunny_tracks_cone.png
+  price: 4.00
+  description: Our premium vanilla ice cream swirled with thick fudge, peanut butter caramel and peanut butter-filled chocolate bunnies comes packed in a sugar cone. A drizzle of fudge and peanut halves top this delectable dessert!
+
+- name: Two-Ball Screwball
+  image: products/two-ball_screwball.png
+  price: 2.00
+  description: Our refreshing, icy cup features cherry-flavored slush with two bubble gum gumballs in the bottom
+
+- name: Chips Galore!
+  image: products/chips_galore.png
+  price: 3.00
+  description: Exploding with semi-sweet chocolate chips! Rich vanilla ice cream comes sandwiched between two chocolate chip cookies. And, as if that's not enough, the sandwich is rolled in chocolate chips galore for a taste of chocolate goodness in every big bite.
+
+- name: Cookies 'n Cream Sandwich
+  image: products/cookies_n_cream_sandwich.png
+  price: 3.00
+  description: Yummy cookies and cream ice cream are packed between two crunchy chocolate cookies for a family favorite that's better than ever.
+
+- name: Chocolate Sundae Crunch
+  image: products/chocolate_sundae_crunch.png
+  price: 2.00
+  description: Experience layer upon layer of chocolate delight. A thick chocolate center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
+
+- name: Strawberry Sundae Crunch
+  image: products/strawberry_sundae_crunch.png
+  price: 2.00
+  description: Experience layer upon layer of strawberry goodness. A thick strawberry center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
+
+- name: King Size Chocolate Éclair
+  image: products/king_size_chocolate_eclair.png
+  price: 2.50
+  description: Here's a pastry lover's delight! Our creamy chocolate center is smothered in vanilla ice cream, dipped in a chocolate shell and rolled in a cake crunch for a king-size chocolate éclair taste that will satisfy to the core.
+
+- name: King Size Cookies ‘n Cream Bar
+  image: products/king_size_cookies_n_cream_bar.png
+  price: 2.50
+  description: Vanilla ice cream with chunks of real chocolate cookies dipped in crunchy cookie pieces for a fantastic cookies and cream experience.
+
+- name: Chocolate, Caramel, and Cashew Bar
+  image: products/chocolate_caramel_cashew_bar.png
+  price: 3.50
+  description: Chocolate ice cream with caramel sauce and praline cashews dipped in chocolate flavored coating.
+
+- name: Turtle Bar
+  image: products/turtle_bar.png
+  price: 3.50
+  description: Premium vanilla ice cream with rich caramel sauce and pecans dipped in the finest milk chocolate.
+
+- name: Rainbow Sherbert Cool Tubes
+  image: products/rainbow_sherbert_cool_tubes.png
+  price: 2.00
+  description: A colorful blend of orange, cherry, and lemon-lime flavored sherbet.
+
+- name: Vanilla Crunch Bar
+  image: products/vanilla_crunch_bar.png
+  price: 2.00
+  description: Smooth inside, crunchy outside and all-around delicious to eat. Our vanilla ice cream is dipped in rich chocolate and crispy rice crunches for a bar that both melts in your mouth and crackles with flavor.
+
+- name: Star Bar
+  image: products/star_bar.png
+  price: 2.00
+  description: Rich milk chocolate shell and creamy vanilla ice cream.
+
+- name: Fudge Bar
+  image: products/fudge_bar.png
+  price: 2.00
+  description: The classic fudge flavor you've cherished since childhood. One bite will take you back to the good ole days of summer vacation.
+
+- name: Chill® Double Lemon Cup
+  image: products/chill_double_lemon_cup.png
+  price: 3.00
+  description: Double lemon is doubly good! The individual cup means this treat is just for you. The special Chill® formula cools you down quick!
+
+- name: Chocolte Malt Cup
+  image: products/chocolate_malt_cup.png
+  price: 3.00
+  description: Thick, creamy and oh-so good! Our malt cups taste like an old-time chocolate malted shake that's been frozen in time.
+
+- name: Screamers Cookies 'n Cream Cup
+  image: products/screamers_cookies_n_cream_cup.png
+  price: 3.00
+  description: We start with vanilla ice cream, add delicious chunks of real chocolate cookies and serve it in an individual cup for an ice cream favorite that's all yours.
+
+- name: Screamers Cookie Dough Cup
+  image: products/screamers_cookie_dough_cup.png
+  price: 3.00
+  description: Chunks of chocolate chip cookie dough swirled throughout creamy cookie dough flavored ice cream, all in an individual cup.
+
+- name: Original Bomb Pop
+  image: products/original_bomb_pop.png
+  price: 2.00
+  description: The classic that you know and love! Flavors of cherry, lime and blue raspberry fill the famous fins that make this treat an all-American favorite.
+
+- name: Jolly Rancher Bomb Pop
+  image: products/jolly_rancher_bomb_pop.png
+  price: 2.00
+  description: Our exclusive Jolly Rancher pop - featuring watermelon, grape, lemon, cherry and green apple stripes - is bursting with your favorite fruit flavors!
+
+- name: Fudge Bomb Pop
+  image: products/fudge_bomb_pop.png
+  price: 2.00
+  description: Go ape over creamy layers of bananas 'n' fudge. This twist on an all-time classic features a creamy banana middle between two layers of fudge.
+
+- name: Sour Cherry Tear Jerker® Bomb Pop
+  image: products/sour_cherry_tear_jerker_bomb_pop.png
+  price: 2.00
+  description: This cherry Tear Jerker® pop is bursting with a sour cherry flavor and features a gumball in the tip.
+
+- name: Original Bomb Pop, Jr.
+  image: products/original_bomb_pop_jr.png
+  price: 1.00
+  description: The classic that you know and love in junior size! Flavors of cherry, lime and blue raspberry fill the mini fins that make this treat an all-American favorite.
+
+- name: King Size Heath Bar
+  image: products/king_size_heath_bar.png
+  price: 2.50
+  description: Our English toffee ice cream is dipped in rich milk chocolate and rolled in Heath® toffee candy pieces for a taste that melts in your mouth and crunches with flavor.
+
+- name: Orange Dream Bar
+  image: products/orange_dream_bar.png
+  price: 2.00
+  description: Heavenly vanilla ice cream is coated with a tangy orange sherbet shell for a delightful frozen treat.
+
+- name: Sweet Freedom Bar
+  image: products/sweet_freedom_bar.png
+  price: 2.50
+  description: A tantalizing chocolate fudge and vanilla fat free ice cream bar with no added sugar.

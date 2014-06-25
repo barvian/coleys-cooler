@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    $MISC
+\*------------------------------------*/
+%flush {
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+%unstyled-link {
+  &, &:visited {
+    border-bottom: none;
+  }
+}
+
+/**
+ * Vertical center
+ */
+.vtop, .vcenter, .vbottom {
+  height: 100%;
+
+  &::after {
+    content: '';
+    height: 100%;
+  }
+}
+
+.vcenter--optical {
+  height: 90%;
+}
+
+.vtop::after, .vtop__item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.vcenter::after, .vcenter__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vbottom::after, .vbottom__item {
+  display: inline-block;
+  vertical-align: bottom;
+}

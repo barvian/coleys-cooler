@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    $FONTS
+\*------------------------------------*/
+
+/**
+ * Museo Sans
+ */
+@include font-face("Museo Sans",
+    font-files("MuseoSans_500-webfont.woff",
+               "MuseoSans_500-webfont.ttf",
+               "MuseoSans_500-webfont.svg#webfont"),
+    "MuseoSans_500-webfont.eot",
+    500,
+    normal);
+
+@include font-face("Museo Sans",
+    font-files("MuseoSans_500_Italic-webfont.woff",
+               "MuseoSans_500_Italic-webfont.ttf",
+               "MuseoSans_500_Italic-webfont.svg#webfont"),
+    "MuseoSans_500_Italic-webfont.eot",
+    500,
+    italic);
+
+/**
+ * Museo slab
+ */
+@include font-face("Museo Slab",
+    font-files("Museo_Slab_500-webfont.woff",
+               "Museo_Slab_500-webfont.ttf",
+               "Museo_Slab_500-webfont.svg#webfont"),
+    "Museo_Slab_500-webfont.eot",
+    500,
+    normal);
+
+@include font-face("Museo Slab",
+    font-files("Museo_Slab_500italic-webfont.woff",
+               "Museo_Slab_500italic-webfont.ttf",
+               "Museo_Slab_500italic-webfont.svg#webfont"),
+    "Museo_Slab_500italic-webfont.eot",
+    500,
+    italic);

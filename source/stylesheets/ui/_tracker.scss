@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    $TRACKER
+\*------------------------------------*/
+.tracker {
+  height: 10 * $base-spacing-unit;
+  overflow: hidden;
+  z-index: 1;
+
+  @include media-query(desk) {
+    height: 20 * $base-spacing-unit;
+  }
+}
+
+  .tracker__wrap {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+
+    .tracker__message {
+      margin-top: -1.25em;
+    }
+
+  .tracker__map {
+    height: 100%;
+    width: 100%;
+  }

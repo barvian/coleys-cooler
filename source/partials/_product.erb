@@ -1,0 +1,7 @@
+<section class="media product">
+  <%= image_tag product.image, class: 'media__img product__img' %>
+  <div class="media__body">
+    <h4 class="product__title"><%= product.name.html_safe %></h4>
+    <p class="product__desc"><%= product.description.html_safe %></p>
+  </div>
+</section>

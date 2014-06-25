@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    $SLIDERS
+\*------------------------------------*/
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__slide {
+  float: left;
+  position: relative;
+  width: 100%;
+
+  .no-js & {
+    display: none;
+
+    &:first-child {
+      display: block;
+    }
+  }
+}
+
+/**
+ * Pagination
+ */
+.slider__pagination {
+  letter-spacing: normal;
+  margin-top: $base-spacing-unit;
+  word-spacing: normal;
+
+  .no-js & {
+    display: none;
+  }
+
+  > li {
+    padding: 0;
+    margin-left: 1.25em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    > a {
+      border: 0.125em solid rgba(0, 0, 0, 0.1);
+      display: block;
+      height: $half-spacing-unit;
+      margin: 0;
+      padding: 0;
+      width: $half-spacing-unit;
+
+      @include border-radius(100%);
+      @include hide-text;
+    }
+
+    > a:hover, > a:active, &.current > a {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+  }
+}

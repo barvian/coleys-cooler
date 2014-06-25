@@ -1,0 +1,37 @@
+<div class="page-lead">
+  <h3 class="page-lead__headline">Check out the delicious <mark>products</mark> we offer:</h3>
+  <p>Something something or other something.</p>
+</div>
+
+<div class="expandable">
+  <div class="grid"><!--
+    <% data.products.sort_by { |p| p[:name] }.each_with_index do |product, index| %>
+      <% if index == 6 %>
+        --><div class="expandable__more"><!--
+      <% end %>
+      --><div class="grid__item desk-one-half">
+        <%= partial 'partials/product', object: product %>
+      </div><!--
+    <% end %>
+    <% if data.products.length >= 6 %>
+      --></div><!--
+    <% end %>
+  --></div>
+  <div class="expandable__footer vbottom">
+    <a class="btn btn--outline btn--soft btn--wide vbottom__item expandable__expander" href="#">View all products</a>
+  </div>
+</div>
+
+<% content_for :post_about do %>
+  <div class="section tracker">
+    <div id="map" class="tracker__map"></div>
+    <div class="tracker__wrap">
+      <span class="bubble tracker__message">Truck Tracker Coming Soon!</span>
+    </div>
+  </div>
+<% end %>
+
+<% content_for :body_scripts do %>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAYtgk--FOOg9QD3h6d0Ze3sz28AGS1ihI&amp;sensor=false"></script>
+  <%= javascript_include_tag 'tracker' %>
+<% end %>

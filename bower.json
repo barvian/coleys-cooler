@@ -1,0 +1,11 @@
+{
+  "name": "coleys-cooler",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "latest",
+    "inuit.css": "git@github.com:csswizardry/inuit.css.git#~5.0.0",
+    "swipe": "git@github.com:thebird/Swipe.git#~2.0.0",
+    "expandables": "git@github.com:mbarvian/expandables.git"
+  },
+  "devDependencies": {}
+}

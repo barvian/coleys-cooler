@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    $SECTIONS
+\*------------------------------------*/
+.section {
+  background-color: $page-color;
+  /* Make them positioned relatively so they can be stacked
+   * on top of each other */
+  position: relative;
+}
+
+.section__inner {
+  padding: 0 $base-spacing-unit;
+  position: relative;
+  margin: 0 auto;
+  max-width: $page-width;
+}
+
+/**
+ * Main section
+ */
+.section--main {
+  padding-bottom: $base-spacing-unit * 2.5;
+}
+
+/**
+ * Striped section
+ */
+.section--striped {
+  background: rgb(242, 240, 246) image-url("striped.png") repeat;
+  margin: image-height("striped-top.png") 0 0;
+  padding: ($base-spacing-unit * 2) 0 ($base-spacing-unit * 1.5);
+  z-index: 10;
+
+  .backgroundsize & {
+    margin: 9px 0 0;
+  }
+
+  &::before, &::after {
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  &::before {
+    background: image-url("striped-top.png") repeat-x center top;
+    height: image-height("striped-top.png");
+    top: -1 * image-height("striped-top.png");
+
+    .backgroundsize & {
+      @include background-size(auto 9px);
+
+      height: 9px;
+      top: -9px;
+    }
+  }
+
+  &::after {
+    background: image-url("striped-bottom.png") repeat-x center top;
+    bottom: -1 * image-height("striped-bottom.png");
+    height: image-height("striped-bottom.png");
+
+    .backgroundsize & {
+      @include background-size(auto 15px);
+
+      height: 15px;
+      bottom: -15px;
+    }
+  }
+
+  h3 {
+    color: $brand-pink;
+  }
+}

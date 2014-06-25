@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    $BUBBLES
+\*------------------------------------*/
+
+.bubble {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.95);
+  color: rgb(255, 255, 255);
+  height: 1.5 * $base-spacing-unit;
+  line-height: 1.5 * $base-spacing-unit;
+  padding: 0 $base-spacing-unit;
+  white-space: nowrap;
+
+  @include background-image(linear-gradient(top, rgba(255, 255, 255, 0.12) 0%, rgba(0, 0, 0, 0.08) 100%));
+  @include border-radius(99em);
+  @include box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.6));
+  @include inline-block;
+  @include text-shadow(0 0.0625em 0 rgba(0, 0, 0, 0.95));
+}

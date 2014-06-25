@@ -1,0 +1,1 @@
+//= require expandables/jquery.expandables
