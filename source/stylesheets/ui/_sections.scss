@@ -27,6 +27,7 @@
  */
 .section--striped {
   background: rgb(242, 240, 246) image-url("striped.png") repeat;
+  color: mix($base-color, $brand-purple, 70%);
   margin: image-height("striped-top.png") 0 0;
   padding: ($base-spacing-unit * 2) 0 ($base-spacing-unit * 1.5);
   z-index: 10;
