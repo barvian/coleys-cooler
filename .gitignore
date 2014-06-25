@@ -14,7 +14,7 @@
 /.sass-cache
 
 # Bower components directory
-/components
+# /components
 
 # Temporary
 /tmp
