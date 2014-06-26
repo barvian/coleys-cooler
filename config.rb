@@ -76,7 +76,7 @@ end
 
 activate :sync do |sync|
   sync.fog_provider = 'AWS' # Your storage provider
-  sync.fog_directory = 'coleys-cooler.com' # Your bucket name
+  sync.fog_directory = 'coleys-cooler' # Your bucket name
   sync.fog_region = 'us-west-2' # The region your storage bucket is in (eg us-east-1, us-west-1, eu-west-1, ap-southeast-1 )
   sync.aws_access_key_id = 'AKIAJZHBUC6KPQO3QWAA' # Your Amazon S3 access key
   sync.aws_secret_access_key = 'CBTlM3fNp+8g1bwrMJZ3qh0MLPfSGSY7TTcv7D8f' # Your Amazon S3 access secret
