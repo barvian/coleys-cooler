@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    $GRIDS
+\*------------------------------------*/
+.grid--center, .grid--right {
+  > .grid__item {
+    text-align: left;
+  }
+}
+
+.grid--center {
+  text-align: center;
+}
+
+.grid--right {
+  text-align: right;
+}

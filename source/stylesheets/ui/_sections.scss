@@ -20,6 +20,7 @@
  */
 .section--main {
   padding-bottom: $base-spacing-unit * 2.5;
+  padding-top: 2 * $base-spacing-unit;
 }
 
 /**
@@ -73,4 +74,13 @@
   h3 {
     color: $brand-pink;
   }
+}
+
+/**
+ * Padded section
+ */
+
+.section--padded {
+  padding-bottom: $base-spacing-unit * 5;
+  padding-top: $base-spacing-unit * 5;
 }

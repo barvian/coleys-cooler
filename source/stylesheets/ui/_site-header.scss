@@ -6,7 +6,6 @@
   @extend .section;
 
   background: image-url("header.png") repeat-x center top;
-  margin-bottom: 2 * $base-spacing-unit;
 
   .backgroundsize & {
     @include background-size(auto 64px);

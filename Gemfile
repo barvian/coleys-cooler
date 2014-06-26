@@ -7,6 +7,7 @@ gem 'nokogiri'
 
 gem 'middleman', '~> 3.2.2'
 gem 'middleman-livereload', '~> 3.1.0'
+gem 'middleman-sync', '~> 3.0.12'
 gem 'compass', '>= 1.0.0.alpha.19'
 gem 'sass', '~> 3.3'
 

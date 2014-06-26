@@ -20,7 +20,7 @@ a, a:visited {
   @extend %flush;
   @extend .landmark;
 
-  text-align: center;
+  text-align: center !important;
 }
 
 .page-lead__headline {
