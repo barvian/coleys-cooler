@@ -8,10 +8,10 @@
   price: 2.00
   description: Little turtle fans will love our smooth cherry ice face bar complete with bubble gum eyes.
 
-- name: Scooby Doo Bar
-  image: products/scooby_doo_bar.png
-  price: 2.50
-  description: This creamy Scooby-shaped bar is made up of mystery flavors fit to be solved by all you sweet sleuths. After a couple bubble gum eyes you should have the case cracked.
+# - name: Scooby Doo Bar
+#   image: products/scooby_doo_bar.png
+#   price: 2.50
+#   description: This creamy Scooby-shaped bar is made up of mystery flavors fit to be solved by all you sweet sleuths. After a couple bubble gum eyes you should have the case cracked.
 
 - name: Sonic Bar
   image: products/sonic_bar.png
@@ -43,10 +43,10 @@
   price: 3.00
   description: Our Chocolate Big Dipper features a large sugar cone filled with chocolate ice cream, dipped in chocolate coating and topped with chocolate cookie crunch.
 
-- name: Cookies 'n Cream Big Dipper
-  image: products/cookies_n_cream_big_dipper.png
-  price: 3.00
-  description: Our Cookies 'n Cream Big Dipper features a large sugar cone filled with cookies 'n cream ice cream dipped in premium white chocolate and topped with crunchy cookie pieces.
+# - name: Cookies 'n Cream Big Dipper
+#   image: products/cookies_n_cream_big_dipper.png
+#   price: 3.00
+#   description: Our Cookies 'n Cream Big Dipper features a large sugar cone filled with cookies 'n cream ice cream dipped in premium white chocolate and topped with crunchy cookie pieces.
 
 - name: Birthday Party Ice Cream Sandwich
   image: products/birthday_party_ice_cream_sandwich.png
@@ -83,20 +83,20 @@
   price: 3.00
   description: Exploding with semi-sweet chocolate chips! Rich vanilla ice cream comes sandwiched between two chocolate chip cookies. And, as if that's not enough, the sandwich is rolled in chocolate chips galore for a taste of chocolate goodness in every big bite.
 
-- name: Cookies 'n Cream Sandwich
-  image: products/cookies_n_cream_sandwich.png
-  price: 3.00
-  description: Yummy cookies and cream ice cream are packed between two crunchy chocolate cookies for a family favorite that's better than ever.
+# - name: Cookies 'n Cream Sandwich
+#   image: products/cookies_n_cream_sandwich.png
+#   price: 3.00
+#   description: Yummy cookies and cream ice cream are packed between two crunchy chocolate cookies for a family favorite that's better than ever.
 
-- name: Chocolate Sundae Crunch
-  image: products/chocolate_sundae_crunch.png
-  price: 2.00
-  description: Experience layer upon layer of chocolate delight. A thick chocolate center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
+# - name: Chocolate Sundae Crunch
+#   image: products/chocolate_sundae_crunch.png
+#   price: 2.00
+#   description: Experience layer upon layer of chocolate delight. A thick chocolate center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
 
-- name: Strawberry Sundae Crunch
-  image: products/strawberry_sundae_crunch.png
-  price: 2.00
-  description: Experience layer upon layer of strawberry goodness. A thick strawberry center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
+# - name: Strawberry Sundae Crunch
+#   image: products/strawberry_sundae_crunch.png
+#   price: 2.00
+#   description: Experience layer upon layer of strawberry goodness. A thick strawberry center is surrounded with smooth vanilla ice cream and rolled in a crunch coating.
 
 - name: King Size Chocolate Éclair
   image: products/king_size_chocolate_eclair.png
@@ -123,10 +123,10 @@
   price: 2.00
   description: A colorful blend of orange, cherry, and lemon-lime flavored sherbet.
 
-- name: Vanilla Crunch Bar
-  image: products/vanilla_crunch_bar.png
-  price: 2.00
-  description: Smooth inside, crunchy outside and all-around delicious to eat. Our vanilla ice cream is dipped in rich chocolate and crispy rice crunches for a bar that both melts in your mouth and crackles with flavor.
+# - name: Vanilla Crunch Bar
+#   image: products/vanilla_crunch_bar.png
+#   price: 2.00
+#   description: Smooth inside, crunchy outside and all-around delicious to eat. Our vanilla ice cream is dipped in rich chocolate and crispy rice crunches for a bar that both melts in your mouth and crackles with flavor.
 
 - name: Star Bar
   image: products/star_bar.png
@@ -143,10 +143,10 @@
   price: 3.00
   description: Double lemon is doubly good! The individual cup means this treat is just for you. The special Chill® formula cools you down quick!
 
-- name: Chocolte Malt Cup
-  image: products/chocolate_malt_cup.png
-  price: 3.00
-  description: Thick, creamy and oh-so good! Our malt cups taste like an old-time chocolate malted shake that's been frozen in time.
+# - name: Chocolate Malt Cup
+#   image: products/chocolate_malt_cup.png
+#   price: 3.00
+#   description: Thick, creamy and oh-so good! Our malt cups taste like an old-time chocolate malted shake that's been frozen in time.
 
 - name: Screamers Cookies 'n Cream Cup
   image: products/screamers_cookies_n_cream_cup.png
@@ -168,10 +168,10 @@
   price: 2.00
   description: Our exclusive Jolly Rancher pop - featuring watermelon, grape, lemon, cherry and green apple stripes - is bursting with your favorite fruit flavors!
 
-- name: Fudge Bomb Pop
-  image: products/fudge_bomb_pop.png
-  price: 2.00
-  description: Go ape over creamy layers of bananas 'n' fudge. This twist on an all-time classic features a creamy banana middle between two layers of fudge.
+# - name: Fudge Bomb Pop
+#   image: products/fudge_bomb_pop.png
+#   price: 2.00
+#   description: Go ape over creamy layers of bananas 'n' fudge. This twist on an all-time classic features a creamy banana middle between two layers of fudge.
 
 - name: Sour Cherry Tear Jerker® Bomb Pop
   image: products/sour_cherry_tear_jerker_bomb_pop.png
@@ -193,7 +193,7 @@
   price: 2.00
   description: Heavenly vanilla ice cream is coated with a tangy orange sherbet shell for a delightful frozen treat.
 
-- name: Sweet Freedom Bar
-  image: products/sweet_freedom_bar.png
-  price: 2.50
-  description: A tantalizing chocolate fudge and vanilla fat free ice cream bar with no added sugar.
+# - name: Sweet Freedom Bar
+#   image: products/sweet_freedom_bar.png
+#   price: 2.50
+#   description: A tantalizing chocolate fudge and vanilla fat free ice cream bar with no added sugar.
