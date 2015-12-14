@@ -1,3 +1,3 @@
 # Coley's Cooler
 
-Previous website for coleyscooler.com
+Former version of coleyscooler.com
